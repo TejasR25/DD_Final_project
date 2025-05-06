@@ -1,0 +1,110 @@
+Restore Archived Project report for top
+Tue May  6 13:40:38 2025
+Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Tue May  6 13:40:38 2025 ;
+; Revision Name                   ; top                                   ;
+; Top-level Entity Name           ; connect_four                          ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/top.qar' into the 'A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/connect_4_w_BOT/' directory
+Info: Generated report 'top.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/23.1std/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4829 megabytes
+    Info: Processing ended: Tue May  6 13:40:38 2025
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++--------------------------+
+; Files Restored           ;
++--------------------------+
+; File Name                ;
++--------------------------+
+; qar_info.json            ;
+; assignment_defaults.qdf  ;
+; bot.sv                   ;
+; button_input.sv          ;
+; color_decider.sv         ;
+; connect_four.sv          ;
+; fsm.sv                   ;
+; output_files/Chain2.cdf  ;
+; pll25.cmp                ;
+; pll25.qip                ;
+; pll25.sip                ;
+; pll25.spd                ;
+; pll25.v                  ;
+; pll25/pll25_0002.qip     ;
+; pll25/pll25_0002.v       ;
+; pll25_sim/pll25.vo       ;
+; rom/draw_won.mif         ;
+; rom/logo.mif             ;
+; rom/player.mif           ;
+; rom/player_select.qip    ;
+; rom/player_select.v      ;
+; rom/player_select_inst.v ;
+; rom/rom.qip              ;
+; rom/rom.v                ;
+; rom/rom_syn.v            ;
+; rom/start.mif            ;
+; rom/start_rom.qip        ;
+; rom/start_rom.v          ;
+; rom/start_rom_inst.v     ;
+; rom/won_draw.qip         ;
+; rom/won_draw.v           ;
+; rom/won_draw_inst.v      ;
+; top.qpf                  ;
+; top.qsf                  ;
+; vga_controller.sv        ;
+; vga_display.sv           ;
++--------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

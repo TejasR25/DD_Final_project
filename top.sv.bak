@@ -1,0 +1,73 @@
+module connect4_top (
+    input  logic CLOCK_50,     // 50 MHz clock on DE1-SoC
+    input  logic [3:0] KEY,    // Use KEY[0] as reset
+    output logic [3:0] VGA_R,
+    output logic [3:0] VGA_G,
+    output logic [3:0] VGA_B,
+    output logic VGA_HS,
+    output logic VGA_VS
+);
+
+    // Clock Divider: 50 MHz to 25 MHz
+    logic clk_25;
+    logic clk_div;
+
+    always_ff @(posedge CLOCK_50) clk_div <= ~clk_div;
+    assign clk_25 = clk_div;
+
+    // Reset active high (KEY[0] is active low)
+    logic rst;
+    assign rst = ~KEY[0];
+
+    // VGA timing signals
+    logic [9:0] pixel_x, pixel_y;
+    logic hsync, vsync, video_on;
+
+    vga_timing_generator vga_timing (
+        .clk(clk_25),
+        .rst(rst),
+        .pixel_x(pixel_x),
+        .pixel_y(pixel_y),
+        .hsync(hsync),
+        .vsync(vsync),
+        .video_on(video_on)
+    );
+
+    // Dummy static grid for testing
+    logic [1:0] grid [0:5][0:6];
+
+    // Static test pattern (simulate a few placed pieces)
+    always_comb begin
+        for (int r = 0; r < 6; r++) begin
+            for (int c = 0; c < 7; c++) begin
+                grid[r][c] = 2'b00;
+            end
+        end
+
+        grid[5][0] = 2'b01;  // Bottom row, first column – Player 1 (Red)
+        grid[4][0] = 2'b10;  // Player 2 (Yellow)
+        grid[5][1] = 2'b01;
+        grid[3][0] = 2'b10;
+    end
+
+    // VGA renderer
+    logic [3:0] r, g, b;
+
+    vga_renderer renderer (
+        .pixel_x(pixel_x),
+        .pixel_y(pixel_y),
+        .video_on(video_on),
+        .grid(grid),
+        .r(r),
+        .g(g),
+        .b(b)
+    );
+
+    // Assign VGA outputs
+    assign VGA_R = r;
+    assign VGA_G = g;
+    assign VGA_B = b;
+    assign VGA_HS = hsync;
+    assign VGA_VS = vsync;
+
+endmodule
