@@ -1,0 +1,37 @@
+module vga_renderer (
+    input  logic [9:0] pixel_x,
+    input  logic [9:0] pixel_y,
+    input  logic       video_on,
+    input  logic [1:0] grid [0:5][0:6],
+    output logic [3:0] r, g, b
+);
+
+    // Each cell is 80x80 pixels
+    localparam CELL_SIZE = 80;
+    localparam COLS = 7;
+    localparam ROWS = 6;
+
+    logic [2:0] cell_col;
+    logic [2:0] cell_row;
+
+    // Determine which cell the pixel is in
+    assign cell_col = pixel_x / CELL_SIZE;
+    assign cell_row = pixel_y / CELL_SIZE;
+
+    logic [1:0] cell_value;
+    assign cell_value = (cell_col < COLS && cell_row < ROWS) ? grid[cell_row][cell_col] : 2'b00;
+
+    // RGB output
+    always_comb begin
+        if (!video_on) begin
+            {r, g, b} = 12'h000;
+        end else begin
+            case (cell_value)
+                2'b01: {r, g, b} = 12'hF00; // Player 1 = Red
+                2'b10: {r, g, b} = 12'hFF0; // Player 2 = Yellow
+                default: {r, g, b} = 12'h000; // Empty = Black
+            endcase
+        end
+    end
+
+endmodule

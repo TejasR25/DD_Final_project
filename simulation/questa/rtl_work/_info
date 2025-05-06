@@ -1,0 +1,204 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dA:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/simulation/questa
+T_opt
+!s110 1745541776
+Vz5[ejCmj;9[R5YBZ=J@;J3
+04 6 4 work top_tb fast 0
+=1-bc0ff3d26fff-680ada90-f5-5bcc
+R0
+!s12b OEM100
+!s124 OEM10U6 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vgrid_logic
+2A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/grid_logic.sv
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1745541775
+!i10b 1
+!s100 Wje_;K8:H?i@FkD?Zlo=<3
+Il?Y5aZ>44=RADZeeL@NA42
+S1
+R1
+w1745540576
+8A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/grid_logic.sv
+FA:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/grid_logic.sv
+!i122 5
+L0 1 43
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z7 !s108 1745541775.000000
+!s107 A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/grid_logic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project|A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/grid_logic.sv|
+!i113 0
+Z8 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 !s92 -sv -work work +incdir+A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vinput_controller
+2A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/input_controller.sv
+R3
+R4
+!i10b 1
+!s100 ::m`W:Vg499eIOLFV[LRk3
+IJ2YLU5@YD`gcg8`9faZKi2
+S1
+R1
+w1745540362
+8A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/input_controller.sv
+FA:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/input_controller.sv
+!i122 4
+L0 1 42
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/input_controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project|A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/input_controller.sv|
+!i113 0
+R8
+R9
+R2
+vpll_25
+2A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/pll_25_sim/pll_25.vo
+R4
+!i10b 1
+!s100 AKS9DzBgA=mN9[EHaAQB>3
+I9o1;^c6XeB>1=fTDFizdf1
+R1
+w1745534495
+8A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/pll_25_sim/pll_25.vo
+FA:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/pll_25_sim/pll_25.vo
+!i122 0
+L0 32 264
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/pll_25_sim/pll_25.vo|
+!s90 -reportprogress|300|A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/pll_25_sim/pll_25.vo|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtop
+2A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/top.sv
+R3
+R4
+!i10b 1
+!s100 oFg3ehbMM9;o_VNSDCc@S2
+IXn=OR_TdSIWmf:S2ZH>lc3
+S1
+R1
+w1745541754
+8A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/top.sv
+FA:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/top.sv
+!i122 3
+L0 1 82
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project|A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/top.sv|
+!i113 0
+R8
+R9
+R2
+vtop_tb
+2A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/top_tb.sv
+R3
+R4
+!i10b 1
+!s100 `nD945I`FPRl<9XOm4=m70
+ILH`i@51i8nfOg7l=[gHTP1
+S1
+R1
+w1745541742
+8A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/top_tb.sv
+FA:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/top_tb.sv
+!i122 6
+L0 3 47
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/top_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project|A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/top_tb.sv|
+!i113 0
+R8
+R9
+R2
+vvga_renderer
+2A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/vga_renderer.sv
+R3
+R4
+!i10b 1
+!s100 <@T8:3YZnoh3=Y=kB<:353
+Ic22oILF>3MQ:[D9nHoJn]1
+S1
+R1
+w1745540991
+8A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/vga_renderer.sv
+FA:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/vga_renderer.sv
+!i122 2
+L0 1 56
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/vga_renderer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project|A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/vga_renderer.sv|
+!i113 0
+R8
+R9
+R2
+vvga_timing_generator
+2A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/vga_timing_generator.sv
+R3
+R4
+!i10b 1
+!s100 CP:4K_jdT1Klf[K`L>__R1
+IEek@?VWcek[mi;GKm0<^F2
+S1
+R1
+w1745538856
+8A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/vga_timing_generator.sv
+FA:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/vga_timing_generator.sv
+!i122 1
+L0 1 125
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/vga_timing_generator.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project|A:/MS_NT_CPE/Spring_2025/Digital_Design_2/Homeworks/DD_Final_project/vga_timing_generator.sv|
+!i113 0
+R8
+R9
+R2
